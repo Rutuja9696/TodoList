@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple to do list</title>
     <script src="./src/main.js"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <h1>To Do List</h1>
@@ -14,9 +15,14 @@
       id="taskForm"
       onsubmit="formSubmission(event)"
     >
-      <label for="task">Enter Your task</label>
+      <label for="task">Enter Your task : </label>
       <input type="text" name="task " id="task" />
-      <input type="button" onclick="formSubmission(event)" value="+add" />
+      <input
+        type="button"
+        class="button"
+        onclick="formSubmission(event)"
+        value="+ Add Task"
+      />
       <br />
     </form>
     <ol id="todoList"></ol>
