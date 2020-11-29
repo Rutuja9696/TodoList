@@ -8,23 +8,26 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <h1>To Do List</h1>
-    <form
-      action=""
-      name="taskList"
-      id="taskForm"
-      onsubmit="formSubmission(event)"
-    >
-      <label for="task">Enter Your task : </label>
-      <input type="text" name="task " id="task" />
-      <input
-        type="button"
-        class="button"
-        onclick="formSubmission(event)"
-        value="+ Add Task"
-      />
-      <br />
-    </form>
-    <ol id="todoList"></ol>
+    <div class="container">
+      <h1>To Do List</h1>
+      <form
+        action=""
+        name="taskList"
+        id="taskForm"
+        onsubmit="formSubmission(event)"
+      >
+        <label for="task">Enter Your task : </label>
+        <input type="text" name="task " id="task" />
+        <input
+          type="button"
+          class="button"
+          onclick="formSubmission(event)"
+          value="+ Add Task"
+        />
+        <br />
+      </form>
+      <ol id="todoList"></ol>
+    </div>
   </body>
+  <!-- <script src="./src/main.js" type="module"></script> -->
 </html>
