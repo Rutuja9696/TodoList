@@ -33,3 +33,6 @@ li {
 .delete {
   display: none;
 }
+.done {
+  text-decoration: line-through;
+}
