@@ -27,7 +27,7 @@ const formSubmission = (event) => {
   deleteButton.addEventListener("click", () => {
     li.classList.add("delete");
   });
-
+  //validation for empty string & markup tag
   // if(isStringEmpty && isMarkup){
   //   Document.getElementById("todoList").appendChild(())
   //   event.target..value=""
