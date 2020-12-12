@@ -36,6 +36,14 @@ e.font size\
 f.padding\
 g.margin
 
-6.Challenges faced:\
+6.Features:\
+-"+Add task" will add new tasks that are entered.\
+-Completed task will be displayed in striked through on clicking "done" button.\
+-"Delete" button will delete the unwanted task.\
+-Once the data is entered,input field will get cleared.\
+-No empty data will be accepted in input field.\
+-No markup can be accepted in input filed.
+
+7.Challenges faced:\
 -Hold the data on refresh.(status:unsolved)\
 -Should not allow invalid data.(status:unsolved)
