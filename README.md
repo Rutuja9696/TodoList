@@ -1,4 +1,5 @@
 # TodoList
+
 1.Title:\
 TO DO LIST
 
@@ -7,7 +8,7 @@ This is a to do list.Its enables users to enter the list of task .The entered ta
 
 3.Demo:\
 This is the demo link to view the program output:-\
-
+https://rutuja9696.github.io/TodoList/01todo/
 
 4.Technologies Used:\
 -HTML\
@@ -36,5 +37,5 @@ f.padding\
 g.margin
 
 6.Challenges faced:\
--Hold the data even on refresh.(status:unsolved)\
--TO not allow the invalid data.(status:unsolved)
+-Hold the data on refresh.(status:unsolved)\
+-Should not allow invalid data.(status:unsolved)

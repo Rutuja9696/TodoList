@@ -1,15 +1,18 @@
 body {
-  width: 40%;
+  width: 70%;
   height: 60vh;
   border: 2px solid blue;
+
   justify-items: center;
   padding: 10px;
-  margin: 5% 20% 0% 30%;
-  /* text-align: center; */
+  margin: 5% 20% 0% 15%;
 }
-
+/* .container {
+  background-color: rgb(189, 189, 243);
+} */
 form {
   font-size: 20px;
+  /* background-color: rgb(152, 152, 247); */
 }
 #task {
   width: 40%;
@@ -20,14 +23,16 @@ form {
 
 .button,
 button {
+  width: 18%;
   border: 2px solid blue;
   padding: 6px;
   margin: 5px;
 }
-/* li {
-  justify-self: ;
-} */
-
+hr {
+  width: 40%;
+  /* background-color: blue;
+  color: blue; */
+}
 /* ol,
 li {
   text-align: center;
